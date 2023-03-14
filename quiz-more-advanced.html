@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML and CSS Quiz | Xavier Rodriquez</title>
+  <meta name="description" content="HTMl and CSS Quiz using and HTML Form.">
+  <meta name="author" content="Xavier Rodriquez">
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+
+  <main>
+    <h1>☑️ Basic HTML and CSS Quiz</h1>
+    <form>
+      <div class="question">
+        <!-- this is wrong for radio and checkboxes -->
+        <label for="q1"><span class="qnum">1.</span>Which one of the following choices is the
+          correct HTML for creating an external hyperlink to BYU-Idaho's home page?</label>
+        <fieldset class="choices">
+          <input type="radio" name="q1" value="a">
+          <code>&lt;a href="http://byui.edu"&gt;BYU-Idaho&lt;/a&gt;</code>
+          <input type="radio" name="q1" value="b">
+          <code>&lt;a link="http://byui.edu"&gt;BYU-Idaho&lt;/a&gt;</code>
+          <input type="radio" name="q1" value="c">
+          <code>&lt;a src="http://byui.edu"&gt;BYU-Idaho&lt;/a&gt;</code>
+          <input type="radio" name="q1" value="d">
+          <code>&lt;href="http://byui.edu"&gt;BYU-Idaho&lt;/href&gt;</code>
+        </fieldset>
+      </div>
+      <div class="question">
+        <label for="q2"><span class="qnum">2.</span>Which of the following are valid,
+          <strong>semantic</strong> HTML elements? Check all that apply.</label>
+        <fieldset class="choices">
+          <input type="checkbox" name="q2" id="q2-1"> <code>&lt;div id="footer"&gt; &lt;/div&gt;</code>
+          <input type="checkbox"> <code>&lt;paragraph class="footer"&gt &lt;/paragraph&gt;</code>
+          <input type="checkbox"> <code>&lt;footer&gt; &lt;/footer&gt;</code>
+          <input type="checkbox"> <code>&lt;aside&gt; &lt;/aside&gt;</code>
+          <input type="checkbox"> <code>&lt;section&gt; &lt;/section&gt;</code>
+        </fieldset>
+      </div>
+      <div class="question">
+        <label for="q3"><span class="qnum">3.</span>What does the acronym CSS stand for?</label>
+        <input type="text" id="q3" for="q3">
+      </div>
+      <div class="question">
+        <label for="q4"><span class="qnum">4.</span>What is the difference between and id and a
+          class attribute and how are each of them selected in CSS?
+        </label>
+        <textarea name="q4" id="q4" rows="5"></textarea>
+      </div>
+      <div class="question">
+        <label for="q5"><span class="qnum">5.</span>Which of the following is the correct way to insert a comment in a CSS file?</label>
+        <select name="q5" id="q5">
+          <option value="" selected disabled>Choose One ...</option>
+          <option value="a">// This is a CSS comment</option>
+          <option value="b">&lt;!-- This is a CSS comment --&gt;/</option>
+          <option value="c">/* This is a CSS comment */</option>
+          <option value="d">/.. This is a CSS comment ../</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="q6"><span class="qnum">6.</span>What is the bottom margin of the CSS declarations given this margin shorthand: </label>
+        <code style="margin-bottom:.5rem;" language="css">margin: 10px 5px 15px;</code>
+        <input type="number" step="1" id="q6" for="q6">
+      </div>
+      <div class="question">
+        <label for="q7"><span class="qnum">7.</span>Pick a text color, besides white, that will not
+          create a color contrast issue with the following background color:</label>
+        <div style="margin: .5rem; width:100px; height: 25px; background-color: #136d4f;"></div>
+        <input type="color" id="q7" for="q7">
+      </div>
+      <div class="question">
+        <input type="submit" value="Submit Quiz">
+      </div>
+
+    </form>
+  </main>
+</body>
+
+</html>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Universal Selector */
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +12,47 @@ body {
   background-color: #f5f5f5;
 }
 
-/* Path: styles\styles.css */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+main {
+  max-width: 900px;
+}
+
+aside {
+  width: 200px;
+  text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+
+footer {
+  margin: 10px auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background-color: #bbb;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #eee;
+  color: #000;
+}
+
+.indent {
+  padding-left: 2rem;
 }

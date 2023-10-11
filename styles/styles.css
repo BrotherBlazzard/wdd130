@@ -12,17 +12,43 @@ body {
   background-color: #f5f5f5;
 }
 
-main {
-  max-width: 900px;
+header, .grid, footer {
+  max-width: 840px;
+  margin: 0 auto;
 }
 
-aside {
-  width: 200px;
+nav {
+  display: flex;
+  align-items: center;
+  background-color: navy;
+}
+
+nav a {
+  flex: 1 1 auto;
+  color: white;
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
   text-align: center;
 }
 
+nav a:hover {
+  background-color: #333;
+}
+
+main {
+  max-width: 900px;
+  grid-column: 2 / 3;
+}
+
+aside {
+  text-align: center;
+  grid-row: 1;
+
+}
+
 aside img {
-  width: 200px;
+  width: 100px;
   height: auto;
 }
 
@@ -45,6 +71,12 @@ footer p {
 }
 
 /* Class Selectors */
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+
+}
+
 .box {
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.1);

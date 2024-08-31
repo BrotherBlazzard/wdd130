@@ -12,7 +12,9 @@ body {
   background-color: #f5f5f5;
 }
 
-header, .grid, footer {
+header,
+.grid,
+footer {
   max-width: 840px;
   margin: 0 auto;
 }
@@ -87,4 +89,12 @@ footer p {
 
 .indent {
   padding-left: 2rem;
+}
+
+nav {
+  display: block;
+}
+
+.box {
+  margin: 1rem .75rem;
 }

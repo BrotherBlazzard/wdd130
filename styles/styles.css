@@ -39,7 +39,7 @@ h1 {
 }
 
 main img {
-  width: 125px;
+  width: 125;
   height: auto;
   border: 1px solid black;
   padding: 1px;
@@ -81,14 +81,14 @@ footer {
 }
 
 /* Class Selectors */
-.box {
+.boxer {
   border: 1px solid rgb(0 0 0 / 20%);
   padding: 1rem;
   background-color: darkblue;
   color: white;
 }
 
-.box a {
+.boxer a {
   color: white;
 }
 

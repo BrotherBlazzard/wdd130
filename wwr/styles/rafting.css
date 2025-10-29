@@ -70,7 +70,7 @@ section {
     height: auto;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -80,7 +80,7 @@ article {
 
 }
 
-article img {
+.hero article img {
     float: right;
     width: 150px;
     height: auto;

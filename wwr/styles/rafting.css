@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --accent-color: #ff5733;
+    --font-family: 'Arial, sans-serif';
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -78,4 +85,8 @@ article img {
     width: 150px;
     height: auto;
     margin-left: 20px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }

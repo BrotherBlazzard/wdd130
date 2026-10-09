@@ -1,0 +1,7 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Facebook Blue Background -->
+  <rect width="200" height="200" rx="20" fill="#1877F2"/>
+  
+  <!-- Facebook 'f' Logo -->
+  <path d="M140 40 L120 40 C105 40 95 50 95 65 L95 85 L75 85 L75 110 L95 110 L95 180 L125 180 L125 110 L145 110 L148 85 L125 85 L125 68 C125 62 127 60 133 60 L148 60 L148 40 L128 40 C120 40 140 40 140 40 Z" fill="white"/>
+</svg>

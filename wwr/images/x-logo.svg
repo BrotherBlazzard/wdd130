@@ -1,0 +1,7 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- X (Twitter) Black Background -->
+  <rect width="200" height="200" rx="20" fill="#000000"/>
+  
+  <!-- X Logo -->
+  <path d="M145 55 L118 90 L147 145 L127 145 L105 102 L78 145 L55 145 L87 105 L60 55 L80 55 L100 95 L125 55 Z" fill="white"/>
+</svg>
